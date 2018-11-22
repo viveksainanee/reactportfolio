@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Anurati';
+  src: url('Anurati-Regular.otf');
+}
+
+.Navbar {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 90px;
+}
+
+.Logo {
+  font-family: 'Anurati', Arial, sans-serif;
+  font-size: 24px;
+  padding: 30px;
+  letter-spacing: 6px;
+  animation: textfade 3s;
+}
+
+@keyframes textfade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
