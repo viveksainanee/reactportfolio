@@ -1,0 +1,31 @@
+.Iconbar {
+  display: flex;
+  background-color: rgb(28, 28, 28);
+  flex-direction: column;
+  width: 100%;
+}
+
+.Icon {
+  width: 100px;
+  height: 100px;
+}
+
+.Icons-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.title {
+  display: flex;
+  margin: auto;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  animation: textfade 3s;
+  padding: 20px;
+  margin-top: 50px;
+  letter-spacing: 3px;
+}

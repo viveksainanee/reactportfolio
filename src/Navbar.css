@@ -6,7 +6,8 @@
 .Navbar {
   display: flex;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  /* background-color: rgkba(0, 0, 0, 0.4); */
   height: 90px;
 }
 
