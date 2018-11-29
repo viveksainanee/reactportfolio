@@ -60,7 +60,7 @@ class Portfolio extends Component {
     ];
 
     return (
-      <div className="Portfolio container-fluid p-0">
+      <div className="Portfolio container-fluid p-0 m-0">
         <Navbar />
         <Intro />
         <Iconbar />

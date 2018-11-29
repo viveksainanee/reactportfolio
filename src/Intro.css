@@ -1,5 +1,4 @@
 .Intro {
-  display: flex;
   background-color: white;
   color: rgb(28, 28, 28);
   height: 90vh;
@@ -11,7 +10,6 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   font-size: 40px;
-  width: 80vh;
   animation: textfade 3s;
 }
 

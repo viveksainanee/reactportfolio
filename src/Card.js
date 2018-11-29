@@ -10,9 +10,13 @@ class Card extends Component {
     };
 
     let photos;
+    let imgStyles = {
+      width: '200px'
+    };
+
     if (this.props.photos) {
       photos = this.props.photos.map(photo => (
-        <img src={photo} width="400px" />
+        <img src={photo} style={imgStyles} />
       ));
     }
 
