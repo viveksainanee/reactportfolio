@@ -17,7 +17,7 @@ class Card extends Component {
     }
 
     return (
-      <div style={styles} className="Card ">
+      <div style={styles} className="Card col-12">
         <div className="row">
           <div className="col-xs-12 p-3 pb-4 m-auto">{photos}</div>
         </div>
