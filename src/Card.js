@@ -18,11 +18,11 @@ class Card extends Component {
 
     return (
       <div style={styles} className="Card ">
-        <div class="row">
-          <div class="col-xs-12 p-3 pb-4 m-auto">{photos}</div>
+        <div className="row">
+          <div className="col-xs-12 p-3 pb-4 m-auto">{photos}</div>
         </div>
-        <div class="row">
-          <div class="col-xs-12 col-sm-6 p-3 pb-4 m-auto">
+        <div className="row">
+          <div className="col-xs-12 col-sm-6 p-3 pb-4 m-auto">
             <h2 className="title"> {this.props.title.toUpperCase()}</h2>
             <div className="blurb"> {this.props.blurb}</div>
             <div className="description"> {this.props.description}</div>

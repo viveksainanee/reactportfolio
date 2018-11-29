@@ -8,7 +8,7 @@ class Navbar extends Component {
       <div className="Navbar">
         <div className="Logo">SAINANEE</div>
         <div className="Contact ml-auto">
-          vivek@sainanee.com
+          {/* vivek@sainanee.com */}
           {/* <Button outline color="primary">
             View Resume
           </Button> */}
