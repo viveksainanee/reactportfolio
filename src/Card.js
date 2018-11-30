@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import './Card.css';
 import uuid from 'uuid/v4';
 
@@ -16,7 +17,9 @@ class Card extends Component {
 
     if (this.props.photos) {
       photos = this.props.photos.map(photo => (
-        <img src={photo} style={imgStyles} key={uuid()} alt="mock" />
+        <div>
+          <img src={photo} style={imgStyles} key={uuid()} alt="mock" />
+        </div>
       ));
     }
 
