@@ -15,6 +15,7 @@ class Portfolio extends Component {
   render() {
     let cards = [
       {
+        section: 'brava',
         color: 'rgb(244, 162, 10)',
         title: 'Web & Mobile Product Lead',
         blurb: `Since 2017, I led web and mobile product management at Brava, a company
@@ -26,6 +27,7 @@ class Portfolio extends Component {
         photos: [bravahome, bravafeed, bravaconnected]
       },
       {
+        section: 'yelp',
         color: 'rgb(200, 10, 23)',
         title: 'Reservations, Product Lead',
         blurb: `From 2015 to 2017, I led product for Yelp's Restaurant Reservations team.`,
@@ -37,6 +39,7 @@ class Portfolio extends Component {
         photos: [yelpconsumer]
       },
       {
+        section: 'ebay-idx',
         color: 'rgb(78, 72, 238)',
         title: 'Identity Experience, Product Manager',
         blurb:
@@ -49,6 +52,7 @@ class Portfolio extends Component {
           `
       },
       {
+        section: 'ebay-messages',
         color: 'rgb(28, 28, 28)',
         title: 'Messages, Product Manager',
         blurb: `In 2013, I also led product for eBay Messages.`,

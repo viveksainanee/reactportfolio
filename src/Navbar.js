@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Button } from 'reactstrap';
 import './Navbar.css';
 
 class Navbar extends Component {

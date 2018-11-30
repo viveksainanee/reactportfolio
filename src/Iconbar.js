@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Button } from 'reactstrap';
 import './Iconbar.css';
 import yelplogo from './yelp.png';
 import ebaylogo from './ebay.png';
@@ -11,9 +10,15 @@ class Iconbar extends Component {
       <div className="Iconbar col-12">
         <h2 className="title"> ENGINEERING AND PRODUCT MANAGEMENT</h2>
         <div className="Icons-container container">
-          <img src={yelplogo} className="Icon" />
-          <img src={ebaylogo} className="Icon" />
-          <img src={bravalogo} className="Icon" />
+          <a href="#yelp">
+            <img src={yelplogo} className="Icon" alt="icon" />
+          </a>
+          <a href="#ebay-idx">
+            <img src={ebaylogo} className="Icon" alt="icon" />
+          </a>
+          <a href="#brava">
+            <img src={bravalogo} className="Icon" alt="icon" />
+          </a>
         </div>
       </div>
     );

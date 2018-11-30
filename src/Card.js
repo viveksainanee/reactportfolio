@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Button } from 'reactstrap';
 import './Card.css';
+import uuid from 'uuid/v4';
 
 class Card extends Component {
   render() {
@@ -11,17 +11,17 @@ class Card extends Component {
 
     let photos;
     let imgStyles = {
-      width: '200px'
+      width: '350px'
     };
 
     if (this.props.photos) {
       photos = this.props.photos.map(photo => (
-        <img src={photo} style={imgStyles} />
+        <img src={photo} style={imgStyles} key={uuid()} alt="mock" />
       ));
     }
 
     return (
-      <div style={styles} className="Card col-12">
+      <div style={styles} className="Card col-12" id={this.props.section}>
         <div className="row">
           <div className="col-xs-12 p-3 pb-4 m-auto">{photos}</div>
         </div>
