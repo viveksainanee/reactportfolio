@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Element } from 'react-scroll';
 
 import './Card.css';
 import uuid from 'uuid/v4';
@@ -17,16 +18,18 @@ class Card extends Component {
 
     if (this.props.photos) {
       photos = this.props.photos.map(photo => (
-        <div>
-          <img src={photo} style={imgStyles} key={uuid()} alt="mock" />
-        </div>
+        <img src={photo} style={imgStyles} key={uuid()} alt="mock" />
       ));
     }
 
     return (
       <div style={styles} className="Card col-12" id={this.props.section}>
         <div className="row">
-          <div className="col-xs-12 p-3 pb-4 m-auto">{photos}</div>
+          <div className="col-12 p-3 text-center">
+            <Element name={this.props.section} className="element">
+              {photos}
+            </Element>
+          </div>
         </div>
         <div className="row">
           <div className="col-xs-12 col-sm-6 p-3 pb-4 m-auto">

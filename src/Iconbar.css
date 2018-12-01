@@ -8,6 +8,14 @@
 .Icon {
   width: 100px;
   height: 100px;
+  cursor: pointer;
+  -webkit-transition: width 0.5s, height 0.5s;
+  transition: width 0.5s, height 0.5s;
+}
+
+.Icon:hover {
+  width: 125px;
+  height: 125px;
 }
 
 .Icons-container {

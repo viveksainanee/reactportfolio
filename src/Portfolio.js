@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+import uuid from 'uuid/v4';
+
 import Intro from './Intro';
 import Card from './Card';
 import Navbar from './Navbar';
 import Iconbar from './Iconbar';
 import Footer from './Footer';
 import './Portfolio.css';
-import uuid from 'uuid/v4';
+
 import bravahome from './bravahome.png';
 import bravafeed from './bravafeed.png';
 import bravaconnected from './bravaconnected.png';
