@@ -10,6 +10,7 @@ import bravahome from './bravahome.png';
 import bravafeed from './bravafeed.png';
 import bravaconnected from './bravaconnected.png';
 import yelpconsumer from './yelpconsumer.png';
+import ebaysignin from './ebaysignin.png';
 
 class Portfolio extends Component {
   render() {
@@ -48,8 +49,8 @@ class Portfolio extends Component {
           in registered-users-who-buy and a +19% increase in business registrations.
           I also led the product design direction for identity experience during eBay's iOS
           and Android 4.0 redesign, which went on to earn Apple's "Best New App" feature on
-          iOS and "100M+ downloads" on Android.
-          `
+          iOS and "100M+ downloads" on Android.`,
+        photos: [ebaysignin]
       },
       {
         section: 'ebay-messages',
