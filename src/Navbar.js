@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Button } from 'reactstrap';
 import './Navbar.css';
 
 class Navbar extends Component {
@@ -6,12 +7,11 @@ class Navbar extends Component {
     return (
       <div className="Navbar">
         <div className="Logo">SAINANEE</div>
-        <div className="Contact ml-auto">
-          {/* vivek@sainanee.com */}
-          {/* <Button outline color="primary">
+        {/* <div className="Contact ml-auto">
+          <Button outline color="primary">
             View Resume
-          </Button> */}
-        </div>
+          </Button>
+        </div> */}
       </div>
     );
   }

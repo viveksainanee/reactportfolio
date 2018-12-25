@@ -5,12 +5,39 @@
 }
 
 .Intro-text {
-  display: flex;
-  margin: auto;
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   font-size: 40px;
+  max-width: 700px;
   animation: textfade 3s;
+}
+
+.Intro-subtext {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+
+  animation: textfade 3s;
+}
+
+#Intro-link-brava {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  color: rgb(244, 162, 10);
+  text-decoration: underline;
+  cursor: pointer;
+  animation: textfade 5s;
+}
+
+#Intro-link-yelp {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  color: red;
+  text-decoration: underline;
+  cursor: pointer;
+  animation: textfade 5s;
 }
 
 @keyframes textfade {

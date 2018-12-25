@@ -18,6 +18,21 @@ class Portfolio extends Component {
   render() {
     let cards = [
       {
+        section: 'coursereport',
+        color: '#4F922F',
+        title: 'Full-Stack Software Engineering',
+        blurb: `In 2018, I led the engineering
+        and product direction for Course Report on iOS and Android.`,
+        description: `My team of 5 built iOS and Android apps for Course Report 
+        in 2 weeks, using React Native. We built a Node.js proxy
+        server to make server-side requests, building off Course Report's
+        Ruby on Rails monolithic architecture. We utilized Fuse.js for search,
+        NativeBase for UI components, and cached data with Redis, enabling 96% faster load times.
+         `,
+        photos: [bravahome, bravafeed, bravaconnected]
+      },
+
+      {
         section: 'brava',
         color: 'rgb(244, 162, 10)',
         title: 'Web & Mobile Product Lead',
@@ -43,7 +58,7 @@ class Portfolio extends Component {
       },
       {
         section: 'ebay-idx',
-        color: 'rgb(78, 72, 238)',
+        color: 'rgb(28, 28, 28)',
         title: 'Identity Experience, Product Manager',
         blurb:
           'In 2013, I began to manage registration, sign-in, and profile page at eBay.',
@@ -56,7 +71,7 @@ class Portfolio extends Component {
       },
       {
         section: 'ebay-messages',
-        color: 'rgb(28, 28, 28)',
+        color: 'rgb(78, 72, 238)',
         title: 'Messages, Product Manager',
         blurb: `In 2013, I also led product for eBay Messages.`,
         description: `Millions of eBay shoppers use eBay Messages every day

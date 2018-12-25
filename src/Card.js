@@ -23,20 +23,16 @@ class Card extends Component {
     }
 
     return (
-      <div style={styles} className="Card col-12" id={this.props.section}>
-        <div className="row">
-          <div className="col-12 p-3 text-center">
-            <Element name={this.props.section} className="element">
-              {photos}
-            </Element>
-          </div>
+      <div style={styles} className="p-5" id={this.props.section}>
+        <div className="col-12 p-3 mb-0 text-center">
+          <Element name={this.props.section} className="element">
+            {photos}
+          </Element>
         </div>
-        <div className="row">
-          <div className="col-xs-12 col-sm-6 p-3 pb-4 m-auto">
-            <h2 className="title"> {this.props.title.toUpperCase()}</h2>
-            <div className="blurb"> {this.props.blurb}</div>
-            <div className="description"> {this.props.description}</div>
-          </div>
+        <div className="col-xs-12 col-sm-8 col-md-6 pt-0 pb-4 m-auto">
+          <h2 className="title mt-0"> {this.props.title.toUpperCase()}</h2>
+          <div className="blurb"> {this.props.blurb}</div>
+          <div className="description"> {this.props.description}</div>
         </div>
       </div>
     );
