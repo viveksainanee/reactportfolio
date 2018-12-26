@@ -11,6 +11,9 @@ import './Portfolio.css';
 import bravahome from './bravahome.png';
 import bravafeed from './bravafeed.png';
 import bravaconnected from './bravaconnected.png';
+import crschools from './crschools.png';
+import crschooldetails from './crschooldetails.png';
+import crblog from './crblog.png';
 import yelpconsumer from './yelpconsumer.png';
 import ebaysignin from './ebaysignin.png';
 
@@ -29,18 +32,18 @@ class Portfolio extends Component {
         Ruby on Rails monolithic architecture. We utilized Fuse.js for search,
         NativeBase for UI components, and cached data with Redis, enabling 96% faster load times.
          `,
-        photos: [bravahome, bravafeed, bravaconnected]
+        photos: [crschools, crschooldetails, crblog]
       },
 
       {
         section: 'brava',
         color: 'rgb(244, 162, 10)',
-        title: 'Web & Mobile Product Lead',
-        blurb: `Since 2017, I led web and mobile product management at Brava, a company
+        title: 'Head of Web & Mobile Product',
+        blurb: `I led web and mobile product management at Brava, a company
         building intelligent, connected ovens.`,
-        description: `During my time there, my team built a tool for recipe discovery, 
-          an eCommerce solution for mealkits, a subscription program, a referral program,
-          and various internal tools for the company. We leveraged a Django (Python) framework
+        description: `During my time there, my team built a tool for recipe discovery, a grocery
+          e-commerce solution, a subscription program, a referral program,
+          and internal tools. We leveraged a Django (Python) framework
           and built our apps for iOS, Android, and Web.`,
         photos: [bravahome, bravafeed, bravaconnected]
       },

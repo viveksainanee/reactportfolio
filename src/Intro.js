@@ -34,7 +34,7 @@ class Intro extends Component {
             >
               reserve tables
             </Link>{' '}
-            at restaurants by telling Siri. We vanish the items we don't want,
+            at restaurants by asking Siri. We vanish the items we don't want,
             transforming them to money in our wallet. Technology is the magic of
             our time. Let's work together and build an inspiring future.
           </div>
