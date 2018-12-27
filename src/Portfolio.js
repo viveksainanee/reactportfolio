@@ -23,7 +23,7 @@ class Portfolio extends Component {
       {
         section: 'coursereport',
         color: '#4F922F',
-        title: 'Full-Stack Software Engineering',
+        title: 'Full-Stack Software Engineer',
         blurb: `In 2018, I led the engineering
         and product direction for Course Report on iOS and Android.`,
         description: `My team of 5 built iOS and Android apps for Course Report 

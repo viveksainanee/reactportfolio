@@ -3,7 +3,11 @@ import './Footer.css';
 
 class Footer extends Component {
   render() {
-    return <div className="footer">vivek@sainanee.com</div>;
+    return (
+      <div id="contact" className="footer">
+        vivek@sainanee.com
+      </div>
+    );
   }
 }
 

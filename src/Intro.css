@@ -40,6 +40,26 @@
   animation: textfade 5s;
 }
 
+#Intro-link-ebay {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  color: rgb(78, 72, 238);
+  text-decoration: underline;
+  cursor: pointer;
+  animation: textfade 5s;
+}
+
+#Intro-link-contact {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+  animation: textfade 5s;
+}
+
 @keyframes textfade {
   0% {
     opacity: 0;

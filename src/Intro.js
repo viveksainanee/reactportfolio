@@ -21,9 +21,9 @@ class Intro extends Component {
               offset={-5}
               duration={500}
             >
-              summon groceries
+              summon food
             </Link>{' '}
-            to our doorstep. We{' '}
+            to our doorstep with a tap. We{' '}
             <Link
               activeClass="active"
               id="Intro-link-yelp"
@@ -34,9 +34,29 @@ class Intro extends Component {
             >
               reserve tables
             </Link>{' '}
-            at restaurants by asking Siri. We vanish the items we don't want,
-            transforming them to money in our wallet. Technology is the magic of
-            our time. Let's work together and build an inspiring future.
+            at restaurants by asking Siri. We{' '}
+            <Link
+              activeClass="active"
+              id="Intro-link-ebay"
+              to="ebay-idx"
+              smooth={true}
+              offset={-5}
+              duration={500}
+            >
+              transform items
+            </Link>{' '}
+            we don't want into money in our wallet. Technology is the magic of
+            our time.{' '}
+            <Link
+              activeClass="active"
+              id="Intro-link-contact"
+              to="contact"
+              smooth={true}
+              offset={-5}
+              duration={500}
+            >
+              Let's work together and build an inspiring future.{' '}
+            </Link>{' '}
           </div>
         </div>
       </div>
