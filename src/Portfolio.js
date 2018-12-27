@@ -8,14 +8,14 @@ import Iconbar from './Iconbar';
 import Footer from './Footer';
 import './Portfolio.css';
 
-import bravahome from './bravahome.png';
-import bravafeed from './bravafeed.png';
-import bravaconnected from './bravaconnected.png';
-import crschools from './crschools.png';
-import crschooldetails from './crschooldetails.png';
-import crblog from './crblog.png';
-import yelpconsumer from './yelpconsumer.png';
-import ebaysignin from './ebaysignin.png';
+import bravahome from './images/bravahome.png';
+import bravafeed from './images/bravafeed.png';
+import bravaconnected from './images/bravaconnected.png';
+import crschools from './images/crschools.png';
+import crschooldetails from './images/crschooldetails.png';
+import crblog from './images/crblog.png';
+import yelpconsumer from './images/yelpconsumer.png';
+import ebaysignin from './images/ebaysignin.png';
 
 class Portfolio extends Component {
   render() {
@@ -63,8 +63,7 @@ class Portfolio extends Component {
         section: 'ebay-idx',
         color: 'rgb(28, 28, 28)',
         title: 'Identity Experience, Product Manager',
-        blurb:
-          'In 2013, I began to manage registration, sign-in, and profile page at eBay.',
+        blurb: 'I managed registration, sign-in, and profile page at eBay.',
         description: `By redesigning registration and sign-in at eBay, my team drove a +6% lift
           in registered-users-who-buy and a +19% increase in business registrations.
           I also led the product design direction for identity experience during eBay's iOS

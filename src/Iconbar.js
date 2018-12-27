@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-scroll';
 import './Iconbar.css';
-import yelplogo from './yelp.png';
-import ebaylogo from './ebay.png';
-import bravalogo from './brava.png';
+import yelplogo from './images/yelp.png';
+import ebaylogo from './images/ebay.png';
+import bravalogo from './images/brava.png';
+import crlogo from './images/cr.png';
 
 class Iconbar extends Component {
   render() {
@@ -37,6 +38,15 @@ class Iconbar extends Component {
             duration={500}
           >
             <img src={bravalogo} className="Icon" alt="icon" />
+          </Link>
+          <Link
+            activeClass="active"
+            to="coursereport"
+            smooth={true}
+            offset={-5}
+            duration={500}
+          >
+            <img src={crlogo} className="Icon" alt="icon" />
           </Link>
         </div>
       </div>
