@@ -40,8 +40,7 @@ class Card extends Component {
     let ipadImgStyle = {
       width: '60%',
       maxWidth: '700px',
-      margin: 'auto',
-      marginTop: '200px'
+      margin: 'auto'
     };
 
     if (this.props.photos) {
