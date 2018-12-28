@@ -1,22 +1,47 @@
 import React, { Component } from 'react';
 import { Element } from 'react-scroll';
+import Carousel from 'nuka-carousel';
 
 import './Card.css';
 import uuid from 'uuid/v4';
 
 class Card extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { width: 0, height: 0 };
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+  }
+
+  componentDidMount() {
+    this.updateWindowDimensions();
+    window.addEventListener('resize', this.updateWindowDimensions);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateWindowDimensions);
+  }
+
+  updateWindowDimensions() {
+    this.setState({ width: window.innerWidth, height: window.innerHeight });
+  }
+
   render() {
-    let styles = {
+    let cardStyle = {
       backgroundColor: this.props.color,
-      color: 'white'
+      color: 'white',
+      width: '100vw'
     };
 
     let photos;
     let phoneImgStyle = {
-      width: '350px'
+      width: '350px',
+      margin: 'auto'
     };
     let ipadImgStyle = {
-      width: '700px'
+      width: '60%',
+      maxWidth: '700px',
+      margin: 'auto',
+      marginTop: '200px'
     };
 
     if (this.props.photos) {
@@ -31,10 +56,16 @@ class Card extends Component {
     }
 
     return (
-      <div style={styles} className="xs-p-0 sm-p-5" id={this.props.section}>
-        <div className="col-12 p-3 mb-0 text-center">
+      <div style={cardStyle} className="xs-p-0 sm-p-5" id={this.props.section}>
+        <div className="col-xs-12 p-3 mb-0 text-center">
           <Element name={this.props.section} className="element">
-            {photos}
+            {photos !== undefined && this.state.width < 800 ? (
+              <Carousel slidesToShow={1} width="100%" wrapAround={true}>
+                {photos}
+              </Carousel>
+            ) : (
+              photos
+            )}
           </Element>
         </div>
         <div className="col-xs-12 col-sm-8 col-md-6 pt-0 pb-4 m-auto">

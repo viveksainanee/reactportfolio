@@ -15,7 +15,7 @@ import crschools from './images/crschools.png';
 import crschooldetails from './images/crschooldetails.png';
 import crblog from './images/crblog.png';
 import yelpbizdetails from './images/yelpbizdetails.png';
-import yelpgrid from './images/yelpgrid.png';
+// import yelpgrid from './images/yelpgrid.png';
 import yelpfloor from './images/yelpfloor.png';
 import ebayreg from './images/ebayreg.png';
 import ebaysignin from './images/ebaysignin.png';
