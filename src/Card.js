@@ -12,13 +12,21 @@ class Card extends Component {
     };
 
     let photos;
-    let imgStyles = {
+    let phoneImgStyle = {
       width: '350px'
+    };
+    let ipadImgStyle = {
+      width: '700px'
     };
 
     if (this.props.photos) {
       photos = this.props.photos.map(photo => (
-        <img src={photo} style={imgStyles} key={uuid()} alt="mock" />
+        <img
+          src={typeof photo === 'object' ? photo.photoPath : photo}
+          style={typeof photo === 'object' ? ipadImgStyle : phoneImgStyle}
+          key={uuid()}
+          alt="mock"
+        />
       ));
     }
 

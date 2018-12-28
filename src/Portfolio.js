@@ -14,8 +14,12 @@ import bravaconnected from './images/bravaconnected.png';
 import crschools from './images/crschools.png';
 import crschooldetails from './images/crschooldetails.png';
 import crblog from './images/crblog.png';
-import yelpconsumer from './images/yelpconsumer.png';
+import yelpbizdetails from './images/yelpbizdetails.png';
+import yelpgrid from './images/yelpgrid.png';
+import yelpfloor from './images/yelpfloor.png';
+import ebayreg from './images/ebayreg.png';
 import ebaysignin from './images/ebaysignin.png';
+import ebayotp from './images/ebayotp.png';
 
 class Portfolio extends Component {
   render() {
@@ -57,7 +61,12 @@ class Portfolio extends Component {
           unit, and more importantly 4X'd the organic growth for 
           restaurants, to fuel self-sustaining growth. Our team worked on restaurant and
           table-planning features for iOS (Swift) and Web (React & Redux).`,
-        photos: [yelpconsumer]
+        photos: [
+          yelpbizdetails,
+          { photoPath: yelpfloor, type: 'ipad' }
+          // ,
+          // { photoPath: yelpgrid, type: 'ipad' }
+        ]
       },
       {
         section: 'ebay-idx',
@@ -69,7 +78,7 @@ class Portfolio extends Component {
           I also led the product design direction for identity experience during eBay's iOS
           and Android 4.0 redesign, which went on to earn Apple's "Best New App" feature on
           iOS and "100M+ downloads" on Android.`,
-        photos: [ebaysignin]
+        photos: [ebayreg, ebaysignin, ebayotp]
       },
       {
         section: 'ebay-messages',
