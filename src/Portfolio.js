@@ -113,7 +113,7 @@ class Portfolio extends Component {
             offset={-5}
             duration={500}
           >
-            <img src={upicon} alt="up-icon" />
+            <img src={upicon} alt="up-icon" width="30px" />
           </Link>
         </div>
       </div>
