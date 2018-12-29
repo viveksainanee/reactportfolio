@@ -8,6 +8,8 @@ import Iconbar from './Iconbar';
 import Footer from './Footer';
 import './Portfolio.css';
 
+// import upicon from './images/upicon.png';
+
 import bravahome from './images/bravahome.png';
 import bravafeed from './images/bravafeed.png';
 import bravaconnected from './images/bravaconnected.png';
@@ -101,6 +103,7 @@ class Portfolio extends Component {
           <Card key={uuid()} {...card} />
         ))}
         <Footer />
+        {/* <img src={upicon} alt="up-icon" /> */}
       </div>
     );
   }

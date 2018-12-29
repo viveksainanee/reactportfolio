@@ -7,7 +7,6 @@
   display: flex;
   align-items: center;
   width: 100%;
-  /* background-color: rgkba(0, 0, 0, 0.4); */
   height: 90px;
 }
 
@@ -17,6 +16,12 @@
   padding: 30px;
   letter-spacing: 6px;
   animation: textfade 3s;
+}
+
+.sm-logo {
+  animation: textfade 3s;
+  width: 30px;
+  margin-right: 20px;
 }
 
 @keyframes textfade {

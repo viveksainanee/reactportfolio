@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import { Button } from 'reactstrap';
+import mail from './images/mail.png';
+import linkedin from './images/linkedin.png';
+import github from './images/github.png';
+
 import './Navbar.css';
 
 class Navbar extends Component {
@@ -7,11 +10,29 @@ class Navbar extends Component {
     return (
       <div className="Navbar">
         <div className="Logo">SAINANEE</div>
-        {/* <div className="Contact ml-auto">
-          <Button outline color="primary">
-            View Resume
-          </Button>
-        </div> */}
+        <div className="Contact ml-auto">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=vivek@sainanee.com"
+          >
+            <img src={mail} alt="contact" className="sm-logo" />
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/sainanee/"
+          >
+            <img src={linkedin} alt="contact" className="sm-logo" />
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/viveksainanee/"
+          >
+            <img src={github} alt="contact" className="sm-logo" />
+          </a>
+        </div>
       </div>
     );
   }
