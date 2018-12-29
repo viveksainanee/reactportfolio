@@ -59,7 +59,12 @@ class Card extends Component {
         <div className="col-xs-12 p-3 mb-0 text-center">
           <Element name={this.props.section} className="element">
             {photos !== undefined && this.state.width < 800 ? (
-              <Carousel slidesToShow={1} width="100%" wrapAround={true}>
+              <Carousel
+                slidesToShow={1}
+                width="100%"
+                wrapAround={true}
+                autoplay={true}
+              >
                 {photos}
               </Carousel>
             ) : (

@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+
+import { Element } from 'react-scroll';
+
 import mail from './images/mail.png';
 import linkedin from './images/linkedin.png';
 import github from './images/github.png';
@@ -9,7 +12,9 @@ class Navbar extends Component {
   render() {
     return (
       <div className="Navbar">
-        <div className="Logo">SAINANEE</div>
+        <Element name="navbar" className="element">
+          <div className="Logo">SAINANEE</div>
+        </Element>
         <div className="Contact ml-auto">
           <a
             target="_blank"

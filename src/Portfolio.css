@@ -3,3 +3,11 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+#upicon {
+  position: fixed;
+  bottom: 0;
+  width: 30px;
+  margin: 20px;
+  cursor: pointer;
+}

@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-scroll';
+
 import uuid from 'uuid/v4';
 
 import Intro from './Intro';
@@ -8,7 +10,7 @@ import Iconbar from './Iconbar';
 import Footer from './Footer';
 import './Portfolio.css';
 
-// import upicon from './images/upicon.png';
+import upicon from './images/upicon.png';
 
 import bravahome from './images/bravahome.png';
 import bravafeed from './images/bravafeed.png';
@@ -103,7 +105,17 @@ class Portfolio extends Component {
           <Card key={uuid()} {...card} />
         ))}
         <Footer />
-        {/* <img src={upicon} alt="up-icon" /> */}
+        <div id="upicon">
+          <Link
+            activeClass="active"
+            to="navbar"
+            smooth={true}
+            offset={-5}
+            duration={500}
+          >
+            <img src={upicon} alt="up-icon" />
+          </Link>
+        </div>
       </div>
     );
   }
