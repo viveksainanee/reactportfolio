@@ -42,6 +42,9 @@ class Card extends Component {
       maxWidth: '700px',
       margin: 'auto'
     };
+    if (this.state.width < 800) {
+      ipadImgStyle.marginTop = '20%';
+    }
 
     if (this.props.photos) {
       photos = this.props.photos.map(photo => (
@@ -55,7 +58,11 @@ class Card extends Component {
     }
 
     return (
-      <div style={cardStyle} className="xs-p-0 sm-p-5" id={this.props.section}>
+      <div
+        style={cardStyle}
+        className="xs-p-0 sm-p-5 py-5"
+        id={this.props.section}
+      >
         <div className="col-xs-12 p-3 mb-0 text-center">
           <Element name={this.props.section} className="element">
             {photos !== undefined && this.state.width < 800 ? (
