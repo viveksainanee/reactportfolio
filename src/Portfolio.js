@@ -32,8 +32,7 @@ class Portfolio extends Component {
         section: 'coursereport',
         color: '#4F922F',
         title: 'Full-Stack Software Engineer',
-        blurb: `In 2018, I led the engineering
-        and product direction for Course Report on iOS and Android.`,
+        blurb: `In 2018, my team built Course Report's iOS and Android apps.`,
         description: `My team of 5 built iOS and Android apps for Course Report 
         in 2 weeks, using React Native. We built a Node.js proxy
         server to make server-side requests, building off Course Report's
