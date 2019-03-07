@@ -47,10 +47,15 @@ class Portfolio extends Component {
         title: 'Head of Web & Mobile Product',
         blurb: `I led web and mobile product management at Brava, a company
         building intelligent, connected ovens.`,
-        description: `During my time there, my team built a tool for recipe discovery, a grocery
-          e-commerce solution, a subscription program, a referral program,
-          and internal tools. We leveraged a Django (Python) framework
-          and built our apps for iOS, Android, and Web.`,
+        description: `Brava is building the future of home-cooking.  A recipe feed suggests 
+        chef-curated meals, a grocery e-commerce marketplace lets
+         you order food to your doorstep, and a mobile-connected 
+         oven lets you cook from wherever you are. 
+         
+         My team built multiple CMSs (content management systems) to handle
+         the social feed and grocery e-commerce. We also built a subscriptions
+         product, referrals program, and integration with the intelligent Brava
+         Oven. We leveraged a Django (Python) framework and built our apps for iOS, Android, and Web.`,
         photos: [bravahome, bravafeed, bravaconnected]
       },
       {
@@ -68,7 +73,7 @@ class Portfolio extends Component {
       {
         section: 'ebay-idx',
         color: 'rgb(28, 28, 28)',
-        title: 'Identity Experience, Technical Product Manager',
+        title: 'Identity Experience, Product Manager',
         blurb: 'I managed registration, sign-in, and profile page at eBay.',
         description: `By redesigning registration and sign-in at eBay, my team drove a +6% lift
           in registered-users-who-buy and a +19% increase in business registrations.
@@ -80,7 +85,7 @@ class Portfolio extends Component {
       {
         section: 'ebay-messages',
         color: 'rgb(78, 72, 238)',
-        title: 'Messages, Technical Product Manager',
+        title: 'Messages and Loyalty, Product Manager',
         blurb: `In 2013, I also led product for eBay Messages.`,
         description: `Millions of eBay shoppers use eBay Messages every day
         to confirm details or ask questions about an item. My team ran multi-variate
