@@ -32,16 +32,15 @@ class Portfolio extends Component {
         section: 'coursereport',
         color: '#4F922F',
         title: 'Full-Stack Software Engineer',
-        blurb: `In 2018, my team built Course Report's iOS and Android apps.`,
-        description: `My team of 5 built iOS and Android apps for Course Report 
-        in 2 weeks, using React Native. We built a Node.js proxy
+        blurb: `My team built Course Report's iOS and Android apps.`,
+        description: `My team of 5 built iOS and Android apps for Course Report using 
+        React Native. We built a Node.js proxy
         server to make server-side requests, building off Course Report's
         Ruby on Rails monolithic architecture. We utilized Fuse.js for search,
         NativeBase for UI components, and cached data with Redis, enabling 96% faster load times.
          `,
         photos: [crschools, crschooldetails, crblog]
       },
-
       {
         section: 'brava',
         color: 'rgb(244, 162, 10)',
@@ -64,12 +63,7 @@ class Portfolio extends Component {
           unit, and more importantly 4X'd the organic growth for 
           restaurants, to fuel self-sustaining growth. Our team worked on restaurant and
           table-planning features for iOS (Swift) and Web (React & Redux).`,
-        photos: [
-          yelpbizdetails,
-          { photoPath: yelpfloor, type: 'ipad' }
-          // ,
-          // { photoPath: yelpgrid, type: 'ipad' }
-        ]
+        photos: [yelpbizdetails, { photoPath: yelpfloor, type: 'ipad' }]
       },
       {
         section: 'ebay-idx',
