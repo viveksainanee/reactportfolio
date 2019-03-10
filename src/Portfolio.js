@@ -48,7 +48,7 @@ class Portfolio extends Component {
       {
         section: 'yelp',
         color: 'rgb(200, 10, 23)',
-        title: 'Reservations, Technical Product Manager',
+        title: 'Reservations, Product Lead',
         blurb: `From 2015 to 2017, I led product for Yelp's Restaurant Reservations team.`,
         description: `Over this time, my team grew Yelp Reservations by 
         +73%. We 2X'd the revenue of the Yelp Reservations business
