@@ -10,7 +10,7 @@ class Iconbar extends Component {
   render() {
     return (
       <div className="Iconbar col-12">
-        <h2 className="title"> ENGINEERING AND PRODUCT MANAGEMENT</h2>
+        <h2 className="title"> PRODUCT AND ENGINEERING</h2>
         <div className="Icons-container container">
           <Link
             activeClass="active"
