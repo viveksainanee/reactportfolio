@@ -31,7 +31,7 @@ class Portfolio extends Component {
       {
         section: 'brava',
         color: 'rgb(244, 162, 10)',
-        title: 'Head of Web & Mobile Product',
+        title: 'Group Product Manager, Web & Mobile',
         blurb: `I led web and mobile product management at Brava, a company
         building intelligent, connected ovens.`,
         description: `Brava is building the future of home-cooking.  A recipe feed suggests 
@@ -48,7 +48,7 @@ class Portfolio extends Component {
       {
         section: 'yelp',
         color: 'rgb(200, 10, 23)',
-        title: 'Reservations, Product Lead',
+        title: 'Product Manager, Reservations',
         blurb: `From 2015 to 2017, I led product for Yelp's Restaurant Reservations team.`,
         description: `Over this time, my team grew Yelp Reservations by 
         +73%. We 2X'd the revenue of the Yelp Reservations business
@@ -60,7 +60,7 @@ class Portfolio extends Component {
       {
         section: 'ebay-idx',
         color: 'rgb(28, 28, 28)',
-        title: 'Identity Experience, Product Manager',
+        title: 'Product Manager, Identity Experience',
         blurb: 'I managed registration, sign-in, and profile page at eBay.',
         description: `By redesigning registration and sign-in at eBay, my team drove a +6% lift
           in registered-users-who-buy and a +19% increase in business registrations.
@@ -72,7 +72,7 @@ class Portfolio extends Component {
       {
         section: 'ebay-messages',
         color: 'rgb(78, 72, 238)',
-        title: 'Messages and Loyalty, Product Manager',
+        title: 'Product Manager, Messages and Loyalty',
         blurb: `In 2013, I also led product for eBay Messages.`,
         description: `Millions of eBay shoppers use eBay Messages every day
         to confirm details or ask questions about an item. My team ran multi-variate
