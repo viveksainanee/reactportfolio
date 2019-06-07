@@ -31,7 +31,7 @@ class Portfolio extends Component {
       {
         section: 'brava',
         color: 'rgb(244, 162, 10)',
-        title: 'Product Manager, Web & Mobile',
+        title: 'Group Product Manager, Web & Mobile',
         blurb: `I led web and mobile product management at Brava, a company
         building intelligent, connected ovens.`,
         description: `Brava is building the future of home-cooking.  A recipe feed suggests 
