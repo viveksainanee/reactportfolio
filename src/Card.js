@@ -80,6 +80,7 @@ class Card extends Component {
           </Element>
         </div>
         <div className="col-xs-12 col-sm-8 col-md-6 pt-0 pb-4 m-auto">
+          <div className="blurb m-0"> {this.props.company}</div>
           <div className="title m-0"> {this.props.title.toUpperCase()}</div>
           <div className="blurb"> {this.props.blurb}</div>
           <div className="description"> {this.props.description}</div>

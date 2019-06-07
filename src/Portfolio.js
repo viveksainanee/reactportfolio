@@ -30,6 +30,7 @@ class Portfolio extends Component {
     let cards = [
       {
         section: 'brava',
+        company: 'brava',
         color: 'rgb(244, 162, 10)',
         title: 'Group Product Manager, Web & Mobile',
         blurb: `I led web and mobile product management at Brava, a company
@@ -47,6 +48,7 @@ class Portfolio extends Component {
       },
       {
         section: 'yelp',
+        company: 'yelp',
         color: 'rgb(200, 10, 23)',
         title: 'Product Manager, Reservations',
         blurb: `From 2015 to 2017, I led product for Yelp's Restaurant Reservations team.`,
@@ -59,6 +61,7 @@ class Portfolio extends Component {
       },
       {
         section: 'ebay-idx',
+        company: 'ebay',
         color: 'rgb(28, 28, 28)',
         title: 'Product Manager, Identity Experience',
         blurb: 'I managed registration, sign-in, and profile page at eBay.',
@@ -71,6 +74,7 @@ class Portfolio extends Component {
       },
       {
         section: 'ebay-messages',
+        company: 'ebay',
         color: 'rgb(78, 72, 238)',
         title: 'Product Manager, Messages and Loyalty',
         blurb: `In 2013, I also led product for eBay Messages.`,
@@ -81,6 +85,7 @@ class Portfolio extends Component {
       },
       {
         section: 'coursereport',
+        company: 'course report',
         color: '#4F922F',
         title: 'Full-Stack Software Engineer',
         blurb: `My team built Course Report's iOS and Android apps.`,
