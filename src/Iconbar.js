@@ -5,6 +5,7 @@ import yelplogo from './images/yelp.png';
 import ebaylogo from './images/ebay.png';
 import bravalogo from './images/brava.png';
 import crlogo from './images/cr.png';
+import cloverbooklogo from './images/cloverbook.png';
 
 class Iconbar extends Component {
   render() {
@@ -41,12 +42,12 @@ class Iconbar extends Component {
           </Link>
           <Link
             activeClass="active"
-            to="coursereport"
+            to="cloverbook"
             smooth={true}
             offset={-5}
             duration={500}
           >
-            <img src={crlogo} className="Icon" alt="icon" />
+            <img src={cloverbooklogo} className="Icon" alt="icon" />
           </Link>
         </div>
       </div>
