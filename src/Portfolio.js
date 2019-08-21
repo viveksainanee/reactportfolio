@@ -32,8 +32,8 @@ class Portfolio extends Component {
         section: 'cloverbook',
         company: 'cloverbook',
         color: 'rgb(80, 189, 93)',
-        title: 'Software Engineer, Full Stack',
-        blurb: `I'm an engineer at Cloverbook, which builds better booking software.`,
+        title: 'Product and Engineering',
+        blurb: `I do product and engineering at Cloverbook, which builds better booking software.`,
         description: `I define, design, and build new software features to help DJs
         and event planners manage their clients, contracts, and invoices. We use Rails and React, with GraphQL for the API, and utilize frameworks such as Semantic UI React. `
       },

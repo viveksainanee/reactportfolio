@@ -4,7 +4,7 @@ import './Iconbar.css';
 import yelplogo from './images/yelp.png';
 import ebaylogo from './images/ebay.png';
 import bravalogo from './images/brava.png';
-import crlogo from './images/cr.png';
+// import crlogo from './images/cr.png';
 import cloverbooklogo from './images/cloverbook.png';
 
 class Iconbar extends Component {
