@@ -29,18 +29,17 @@ class Portfolio extends Component {
   render() {
     let cards = [
       {
-        section: 'cloverbook',
-        company: 'cloverbook',
-        color: 'rgb(80, 189, 93)',
-        title: 'Product and Engineering',
-        blurb: `I do product and engineering at Cloverbook, which builds better booking software.`,
-        description: `I define, design, and build new software features to help DJs
-        and event planners manage their clients, contracts, and invoices. We use Rails and React, with GraphQL for the API, and utilize frameworks such as Semantic UI React. `
+        section: 'starbucks',
+        company: 'starbucks',
+        color: 'rgb(40, 96, 68)',
+        title: 'Software Engineer',
+        blurb: `I work on the Starbucks app, which handles 23M mobile payment users in the US alone.`,
+        description: `We develop a flexible API to iOS, Android, and Web using GraphQL and NodeJS. We design, build, and maintain code for scale, to provide the best experience possible to Starbucks consumers.`
       },
       {
         section: 'brava',
         company: 'brava',
-        color: 'rgb(244, 162, 10)',
+        color: 'rgb(28, 28, 28)',
         title: 'Group Product Manager, Web & Mobile',
         blurb: `I led web and mobile product management at Brava, a company
         building intelligent, connected ovens.`,
