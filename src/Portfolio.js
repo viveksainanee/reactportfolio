@@ -34,7 +34,7 @@ class Portfolio extends Component {
         color: 'rgb(40, 96, 68)',
         title: 'Software Engineer',
         blurb: `I work on the Starbucks app, which handles 23M mobile payment users in the US alone.`,
-        description: `We develop a flexible API to iOS, Android, and Web using GraphQL and NodeJS. We design, build, and maintain code for scale, to provide the best experience possible to Starbucks consumers.`
+        description: `The Starbucks app helps you find stores, place orders, and pay for your order. My team develops a GraphQL API for iOS, Android, and Web clients using NodeJS. We design, build, and maintain code for scale in order to provide the best experience possible to Starbucks consumers.`
       },
       {
         section: 'brava',
