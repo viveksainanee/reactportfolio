@@ -1,13 +1,20 @@
 .stopwatch {
   display: flex;
-  color: black;
-  height: 100px;
+  height: 100%;
   width: 100%;
   justify-content: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
-  font-size: 300px;
+  font-size: 400px;
   animation: textfade 3s;
   padding: 20px;
   margin-top: 50px;
+}
+
+.dark {
+  color: rgb(40, 96, 68);
+}
+
+.light {
+  color: rgb(78, 72, 238);
 }

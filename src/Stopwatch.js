@@ -18,11 +18,16 @@ class Stopwatch extends Component {
   }
 
   render() {
-    const min = Math.floor(this.state.currTime / 60);
+    const currTime = this.state.currTime;
+    const min = Math.floor(currTime / 60);
     let sec = (this.state.currTime % 60).toString();
     if (sec.length === 1) sec = '0' + sec;
     const displayTime = min === 0 ? `${sec}` : `${min}:${sec}`;
-    return <div class="stopwatch">{displayTime}</div>;
+
+    if (parseInt(sec) < 30) {
+      return <div class="stopwatch light">{displayTime}</div>;
+    }
+    return <div class="stopwatch dark">{displayTime}</div>;
   }
 }
 
