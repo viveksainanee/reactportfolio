@@ -15,9 +15,6 @@ import upicon from './images/upicon.png';
 import bravahome from './images/bravahome.png';
 import bravafeed from './images/bravafeed.png';
 import bravaconnected from './images/bravaconnected.png';
-import crschools from './images/crschools.png';
-import crschooldetails from './images/crschooldetails.png';
-import crblog from './images/crblog.png';
 import yelpbizdetails from './images/yelpbizdetails.png';
 // import yelpgrid from './images/yelpgrid.png';
 import yelpfloor from './images/yelpfloor.png';
@@ -90,20 +87,6 @@ class Portfolio extends Component {
         to confirm details or ask questions about an item. My team ran multi-variate
         A/B tests to optimize the flow, increasing revenue in UK and Germany by $257K. 
         We also refactored our code to RaptorJS to improve development velocity.`
-      },
-      {
-        section: 'coursereport',
-        company: 'course report',
-        color: '#4F922F',
-        title: 'Full-Stack Software Engineer',
-        blurb: `My team built Course Report's iOS and Android apps.`,
-        description: `My team of 5 built iOS and Android apps for Course Report using 
-        React Native. We built a Node.js proxy
-        server to make server-side requests, building off Course Report's
-        Ruby on Rails monolithic architecture. We utilized Fuse.js for search,
-        NativeBase for UI components, and cached data with Redis, enabling 96% faster load times.
-         `,
-        photos: [crschools, crschooldetails, crblog]
       }
     ];
 
