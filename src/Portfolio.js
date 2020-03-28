@@ -16,7 +16,6 @@ import bravahome from './images/bravahome.png';
 import bravafeed from './images/bravafeed.png';
 import bravaconnected from './images/bravaconnected.png';
 import yelpbizdetails from './images/yelpbizdetails.png';
-// import yelpgrid from './images/yelpgrid.png';
 import yelpfloor from './images/yelpfloor.png';
 import ebayreg from './images/ebayreg.png';
 import ebaysignin from './images/ebaysignin.png';
@@ -56,7 +55,7 @@ class Portfolio extends Component {
         company: 'yelp',
         color: 'rgb(200, 10, 23)',
         title: 'Product Manager, Reservations',
-        blurb: `From 2015 to 2017, I led product for Yelp's Restaurant Reservations team.`,
+        blurb: `From 2015 to 2017, I was the product manager for Yelp's Restaurant Reservations team.`,
         description: `Over this time, my team grew Yelp Reservations by 
         +73%. We 2X'd the revenue of the Yelp Reservations business
           unit, and more importantly 4X'd the organic growth for 

@@ -1,0 +1,20 @@
+.menu-items {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  max-width: 700px;
+  animation: textfade 3s;
+}
+
+.menu-link {
+  color: black;
+}
+
+@keyframes textfade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
