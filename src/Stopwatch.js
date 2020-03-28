@@ -25,9 +25,9 @@ class Stopwatch extends Component {
     const displayTime = min === 0 ? `${sec}` : `${min}:${sec}`;
 
     if (parseInt(sec) < 30) {
-      return <div class="stopwatch light">{displayTime}</div>;
+      return <div class="stopwatch dark">{displayTime}</div>;
     }
-    return <div class="stopwatch dark">{displayTime}</div>;
+    return <div class="stopwatch light">{displayTime}</div>;
   }
 }
 
