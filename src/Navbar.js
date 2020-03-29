@@ -12,6 +12,8 @@ import './Navbar.css';
 
 class Navbar extends Component {
   render() {
+    const moreIconPath = this.props.isMenuOpen ? '/' : '/menu';
+
     return (
       <div className="Navbar">
         <Element name="navbar" className="element">
@@ -39,7 +41,7 @@ class Navbar extends Component {
           >
             <img src={github} alt="contact" className="sm-logo" />
           </a>
-          <Link to="/menu">
+          <Link to={moreIconPath}>
             <img src={moreicon} alt="contact" className="sm-logo" />
           </Link>
         </div>

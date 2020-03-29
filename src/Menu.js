@@ -5,9 +5,10 @@ import './Menu.css';
 
 class Menu extends Component {
   render() {
+    const isMenuOpen = true;
     return (
       <div className="Menu">
-        <Navbar />
+        <Navbar isMenuOpen={isMenuOpen} />
         <div className="menu-items col-xs-12 m-auto text-center">
           <div className="menu-item">
             <Link to="/" className="menu-link">
