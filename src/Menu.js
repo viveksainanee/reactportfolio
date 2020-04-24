@@ -16,8 +16,17 @@ class Menu extends Component {
             </Link>
           </div>
           <div className="menu-item">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="http://codenames.sainanee.com"
+            >
+              Covidnames
+            </a>
+          </div>
+          <div className="menu-item">
             <Link to="/stopwatch" className="menu-link">
-              Stopwatch
+              Stopwatch (for HIIT)
             </Link>
           </div>
         </div>
