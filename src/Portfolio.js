@@ -20,37 +20,12 @@ import yelpfloor from "./images/yelpfloor.png";
 import ebayreg from "./images/ebayreg.png";
 import ebaysignin from "./images/ebaysignin.png";
 import ebayotp from "./images/ebayotp.png";
+import sbuxStores from "./images/find-stores.png";
+import sbuxHome from "./images/home.png";
+import sbuxCheckout from "./images/checkout.png";
 
 class Portfolio extends Component {
   render() {
-    function notifyMe() {
-      // Let's check if the browser supports notifications
-      if (!("Notification" in window)) {
-        alert("This browser does not support desktop notification");
-      }
-
-      // Let's check whether notification permissions have already been granted
-      else if (Notification.permission === "granted") {
-        // If it's okay let's create a notification
-        var notification = new Notification("Hi there!");
-      }
-
-      // Otherwise, we need to ask the user for permission
-      else if (Notification.permission !== "denied") {
-        Notification.requestPermission().then(function(permission) {
-          // If the user accepts, let's create a notification
-          if (permission === "granted") {
-            var notification = new Notification("Hi there!");
-          }
-        });
-      }
-
-      // At last, if the user has denied notifications, and you
-      // want to be respectful there is no need to bother them any more.
-    }
-    notifyMe();
-    console.log("test");
-
     let cards = [
       {
         section: "starbucks",
@@ -59,6 +34,7 @@ class Portfolio extends Component {
         title: "Software Engineer",
         blurb: `I work on the Starbucks app, which handles 23M mobile payment users in the US alone.`,
         description: `The Starbucks app helps you find stores, place orders, and pay for your order. My team develops a GraphQL API for iOS, Android, and Web clients using NodeJS. We design, build, and maintain code for scale in order to provide the best experience possible to Starbucks consumers.`,
+        photos: [sbuxHome, sbuxStores, sbuxCheckout],
       },
       {
         section: "brava",
@@ -120,7 +96,7 @@ class Portfolio extends Component {
     return (
       <div className="Portfolio container-fluid p-0 m-0">
         <Navbar />
-        <Intro onClick={notifyMe()} />
+        <Intro />
         <Iconbar />
         {cards.map((card) => (
           <Card key={uuid()} {...card} />
