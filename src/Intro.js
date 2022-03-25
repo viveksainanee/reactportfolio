@@ -46,7 +46,7 @@ class Intro extends Component {
             >
               reserve tables
             </Link>{" "}
-            at restaurants by asking Siri. Or{" "}
+            at restaurants just by asking Siri. Or maybe the power to{" "}
             <Link
               activeClass="active"
               id="Intro-link-ebay"
