@@ -31,9 +31,12 @@ class Portfolio extends Component {
         section: "starbucks",
         company: "starbucks",
         color: "rgb(40, 96, 68)",
-        title: "Software Engineer",
-        blurb: `I work on the Starbucks app, which handles 23M mobile payment users in the US alone.`,
-        description: `The Starbucks app helps you find stores, place orders, and pay for your order. My team develops a GraphQL API for iOS, Android, and Web clients using NodeJS. We design, build, and maintain code for scale in order to provide the best experience possible to Starbucks consumers.`,
+        title: "Engineering, GraphQL",
+        blurb: `From 2019 to 2022, I worked on GraphQL at Starbucks.`,
+        description: `The Starbucks app helps you find stores, place orders, and pay.
+        My team developed a backend-for-frontend, using GraphQL and NodeJS, for the Starbucks iOS, Android, and Web apps. 
+        I led the "Order & Pay" domain's GraphQL work, which includes the screenshots you see above: Homepage/Usuals, Store Locator, and Checkout. My work included technical design, planning, coding, and testing. I also helped train and mentor new engineers, and as a team we scaled over 3X in throughput, to 2.63 billion requests per month.`,
+
         photos: [sbuxHome, sbuxStores, sbuxCheckout],
       },
       {
@@ -41,7 +44,7 @@ class Portfolio extends Component {
         company: "brava",
         color: "rgb(28, 28, 28)",
         title: "Group Product Manager, Web & Mobile",
-        blurb: `I led web and mobile product management at Brava, a company
+        blurb: `I led web and mobile product at Brava, a company
         building intelligent, connected ovens.`,
         description: `Brava is building the future of home-cooking.  A recipe feed suggests 
         chef-curated meals, a grocery e-commerce marketplace lets
@@ -85,7 +88,7 @@ class Portfolio extends Component {
         company: "ebay",
         color: "rgb(78, 72, 238)",
         title: "Product Manager, Messages and Loyalty",
-        blurb: `In 2013, I also led product for eBay Messages.`,
+        blurb: `I also led product for eBay Messages.`,
         description: `Millions of eBay shoppers use eBay Messages every day
         to confirm details or ask questions about an item. My team ran multi-variate
         A/B tests to optimize the flow, increasing revenue in UK and Germany by $257K. 
