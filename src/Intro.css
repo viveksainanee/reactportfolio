@@ -5,7 +5,7 @@
 }
 
 .Intro-text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-size: 40px;
   max-width: 700px;
@@ -13,14 +13,24 @@
 }
 
 .Intro-subtext {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 20px;
   animation: textfade 3s;
 }
 
+#Intro-link-sbux {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  color: rgb(40, 96, 68);
+  text-decoration: underline;
+  cursor: pointer;
+  animation: textfade 5s;
+}
+
 #Intro-link-brava {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-size: 20px;
   color: rgb(244, 162, 10);
@@ -30,7 +40,7 @@
 }
 
 #Intro-link-yelp {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-size: 20px;
   color: red;
@@ -40,7 +50,7 @@
 }
 
 #Intro-link-ebay {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-size: 20px;
   color: rgb(78, 72, 238);
@@ -50,7 +60,7 @@
 }
 
 #Intro-link-contact {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-size: 20px;
   color: black;

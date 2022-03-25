@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import { Link } from 'react-scroll';
+import React, { Component } from "react";
+import { Link } from "react-scroll";
 
-import './Intro.css';
+import "./Intro.css";
 
 class Intro extends Component {
   render() {
@@ -12,7 +12,18 @@ class Intro extends Component {
             Magic is around us if we choose to see it.
           </div>
           <div className="Intro-subtext">
-            We{' '}
+            Imagine a steaming mug of{" "}
+            <Link
+              activeClass="active"
+              id="Intro-link-sbux"
+              to="starbucks"
+              smooth={true}
+              offset={-5}
+              duration={500}
+            >
+              coffee, crafted with a tap.
+            </Link>{" "}
+            Or{" "}
             <Link
               activeClass="active"
               id="Intro-link-brava"
@@ -21,9 +32,10 @@ class Intro extends Component {
               offset={-5}
               duration={500}
             >
-              summon food
-            </Link>{' '}
-            to our doorstep with a tap. We{' '}
+              an intelligent oven
+            </Link>{" "}
+            that knows what's inside, and cooks each ingredient to perfection.
+            Or the ability to{" "}
             <Link
               activeClass="active"
               id="Intro-link-yelp"
@@ -33,8 +45,8 @@ class Intro extends Component {
               duration={500}
             >
               reserve tables
-            </Link>{' '}
-            at restaurants by asking Siri. We{' '}
+            </Link>{" "}
+            at restaurants by asking Siri. Or{" "}
             <Link
               activeClass="active"
               id="Intro-link-ebay"
@@ -44,9 +56,9 @@ class Intro extends Component {
               duration={500}
             >
               transform items
-            </Link>{' '}
+            </Link>{" "}
             we don't want into money in our wallet. Technology is the magic of
-            our time.{' '}
+            our time.{" "}
             <Link
               activeClass="active"
               id="Intro-link-contact"
@@ -55,8 +67,8 @@ class Intro extends Component {
               offset={-5}
               duration={500}
             >
-              Let's work together and build an inspiring future.{' '}
-            </Link>{' '}
+              Let's work together and build an inspiring future.{" "}
+            </Link>{" "}
           </div>
         </div>
       </div>
