@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import Navbar from './Navbar';
-import { Link } from 'react-router-dom';
-import './Menu.css';
+import React, { Component } from "react";
+import Navbar from "./Navbar";
+import { Link } from "react-router-dom";
+import "./Menu.css";
 
 class Menu extends Component {
   render() {
@@ -14,6 +14,24 @@ class Menu extends Component {
             <Link to="/" className="menu-link">
               Home
             </Link>
+          </div>
+          <div className="menu-item">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/sainanee/"
+            >
+              LinkedIn
+            </a>
+          </div>
+          <div className="menu-item">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/viveksainanee/"
+            >
+              GitHub
+            </a>
           </div>
           <div className="menu-item">
             <a
