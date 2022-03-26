@@ -1,10 +1,6 @@
 .menu-items {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-size: 40px;
   max-width: 700px;
-}
-
-.menu-link {
-  color: black;
 }
