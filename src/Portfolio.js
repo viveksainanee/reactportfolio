@@ -42,7 +42,7 @@ class Portfolio extends Component {
         company: "starbucks",
         color: "rgb(40, 96, 68)",
         title: "Engineering, GraphQL",
-        blurb: `From 2019 to 2022, I worked on GraphQL at Starbucks.`,
+        blurb: `From 2019 to 2022, I worked on the GraphQL API layer for the Starbucks apps.`,
         description: `The Starbucks app helps you find stores, place orders, and pay.
         My team developed a backend-for-frontend, using GraphQL and NodeJS, for the Starbucks iOS, Android, and Web apps. 
         I led the "Order & Pay" domain's GraphQL work, which includes the screenshots you see above: Homepage/Usuals, Store Locator, and Checkout. My work included technical design, planning, coding, and testing. I also helped train and mentor new engineers, and as a team we scaled over 3X in throughput, to 2.63 billion requests per month.`,

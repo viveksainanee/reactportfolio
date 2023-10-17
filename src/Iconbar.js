@@ -6,6 +6,7 @@ import ebaylogo from './images/ebay.png';
 import bravalogo from './images/brava.png';
 // import crlogo from './images/cr.png';
 import starbuckslogo from './images/starbucks.png';
+import twiliologo from './images/twilio.png';
 
 class Iconbar extends Component {
   render() {
@@ -15,22 +16,24 @@ class Iconbar extends Component {
         <div className="Icons-container container">
           <Link
             activeClass="active"
-            to="ebay-idx"
+            to="twilio"
             smooth={true}
             offset={-5}
             duration={500}
           >
-            <img src={ebaylogo} className="Icon" alt="icon" />
+            <img src={twiliologo} className="Icon" alt="icon" />
           </Link>
+
           <Link
             activeClass="active"
-            to="yelp"
+            to="starbucks"
             smooth={true}
             offset={-5}
             duration={500}
           >
-            <img src={yelplogo} className="Icon" alt="icon" />
+            <img src={starbuckslogo} className="Icon" alt="icon" />
           </Link>
+
           <Link
             activeClass="active"
             to="brava"
@@ -40,14 +43,25 @@ class Iconbar extends Component {
           >
             <img src={bravalogo} className="Icon" alt="icon" />
           </Link>
+
           <Link
             activeClass="active"
-            to="starbucks"
+            to="yelp"
             smooth={true}
             offset={-5}
             duration={500}
           >
-            <img src={starbuckslogo} className="Icon" alt="icon" />
+            <img src={yelplogo} className="Icon" alt="icon" />
+          </Link>
+
+          <Link
+            activeClass="active"
+            to="ebay-idx"
+            smooth={true}
+            offset={-5}
+            duration={500}
+          >
+            <img src={ebaylogo} className="Icon" alt="icon" />
           </Link>
         </div>
       </div>
