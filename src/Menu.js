@@ -33,18 +33,18 @@ class Menu extends Component {
               GitHub
             </a>
           </div>
-          <div className="menu-item">
+          {/* <div className="menu-item">
             <a
               target="_blank"
               rel="noopener noreferrer"
               href="http://codenames.sainanee.com"
             >
-              Covidnames
+              Codenames
             </a>
-          </div>
+          </div> */}
           <div className="menu-item">
             <Link to="/stopwatch" className="menu-link">
-              Stopwatch (for HIIT)
+              Simple Stopwatch
             </Link>
           </div>
         </div>
