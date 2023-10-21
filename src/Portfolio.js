@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-scroll";
 
-import uuid from "uuid/v4";
+import v4 from "uuid/v4";
 
 import Intro from "./Intro";
 import Card from "./Card";
@@ -112,7 +112,7 @@ class Portfolio extends Component {
         <Intro />
         <Iconbar />
         {cards.map((card) => (
-          <Card key={uuid()} {...card} />
+          <Card key={v4()} {...card} />
         ))}
         <Footer />
         <div id="upicon">
