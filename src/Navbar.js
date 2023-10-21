@@ -35,19 +35,19 @@ class Navbar extends Component {
 
     let icons = [
       {
-        href:
-          "https://mail.google.com/mail/?view=cm&fs=1&to=vivek@sainanee.com",
-        imgSrc: mail,
+        href: "https://www.linkedin.com/in/sainanee/",
+        imgSrc: linkedin,
         alt: "contact",
-      },
+      }
     ];
 
     if (this.state.width > 500) {
       icons = [
         ...icons,
         {
-          href: "https://www.linkedin.com/in/sainanee/",
-          imgSrc: linkedin,
+          href:
+            "https://mail.google.com/mail/?view=cm&fs=1&to=vivek@sainanee.com",
+          imgSrc: mail,
           alt: "contact",
         },
         {
