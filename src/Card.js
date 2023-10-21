@@ -3,7 +3,6 @@ import { Element } from 'react-scroll';
 import Carousel from 'nuka-carousel';
 
 import './Card.css';
-import v4 from 'uuid/v4';
 
 class Card extends Component {
   constructor(props) {
@@ -51,7 +50,6 @@ class Card extends Component {
         <img
           src={typeof photo === 'object' ? photo.photoPath : photo}
           style={typeof photo === 'object' ? ipadImgStyle : phoneImgStyle}
-          key={v4()}
           alt="mock"
         />
       ));
