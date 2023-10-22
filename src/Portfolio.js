@@ -23,6 +23,9 @@ import ebayotp from "./images/ebayotp.png";
 import sbuxStores from "./images/find-stores.png";
 import sbuxHome from "./images/home.png";
 import sbuxCheckout from "./images/checkout.png";
+import cdp from "./images/twilio-cdp.png";
+// import journeys from "./images/twilio-journeys.png";
+// import events from "./images/twilio-events.png";
 import nikeEmail from "./images/nikeemail.png";
 
 class Portfolio extends Component {
@@ -31,11 +34,11 @@ class Portfolio extends Component {
       {
         section: "twilio",
         company: "twilio",
-        color: "rgb(200, 10, 23)",
+        color: "rgb(28, 28, 28)",
         title: "Staff Engineer, Profile API",
         blurb: `Hey there, and welcome. I'm the engineering lead for the Twilio-Segment Profile API, an avenue of personalization used by Etsy, Nike, Dropbox, Chase, and many more.`,
         description: `When a Nike customer shops for shoes on multiple devices, our product allows Nike to get a consolidated view of the customer journey. Then, Profile API allows Nike to ping that customer at exactly the right time- like a birthday reward for the exact shoes they were looking at. My excellent team and I are working on redesigning the architecture, schema, and RPC services for the future of marketing.`,
-        photos: [nikeEmail]
+        photos: [{ photoPath: cdp, type: "ipad" }, nikeEmail]
       },
       {
         section: "starbucks",
